@@ -18,9 +18,9 @@ import com.example.vaadinSolution.bo.FundValueBo;
 public class CsvReaderServiceTest {
 	
 	@TestConfiguration
-    static class EmployeeServiceImplTestContextConfiguration {
+    static class CsvReaderServiceTestContextConfiguration {
         @Bean
-        public CsvReaderService employeeService() {
+        public CsvReaderService csvReaderService() {
             return new CsvReaderService();
         }
     }
